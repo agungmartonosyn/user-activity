@@ -1,4 +1,5 @@
 <?php
+namespace Amar;
 
 use Amar\Useractivity\Model\ActivityLog;
 use Illuminate\Pagination\LengthAwarePaginator;

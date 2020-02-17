@@ -1,0 +1,38 @@
+{
+    "name": "agungmartonosyn/user-activity",
+    "description": "Simple Activity Log User",
+    "homepage": "https://github.com/agungmartonosyn/user-activity",
+    "keywords": [
+        "activity",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Agung Martono",
+            "email": "agungmartonosyn@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.2",
+        "illuminate/database": "^6.0",
+        "illuminate/support": "^6.0",
+        "illuminate/pagination": "^6.0",
+        "jenssegers/agent": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amar\\Useractivity\\": "src"
+        },
+        "files": [
+            "src/UserActivity.php"
+        ]
+    },
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amar\\Useractivity\\UserActivityProviders"
+            ]
+        }
+    }
+}

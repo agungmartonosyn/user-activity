@@ -8,7 +8,7 @@ class ActivityLog extends Model
 {
     protected $table = 'activity_logs';
 
-    protected $fillable = ['url', 'method', 'ip', 'platform', 'browser', 'device', 'user_id', 'created_at', 'updated_at'];
+    protected $fillable = ['url', 'method', 'ip', 'platform', 'browser', 'device', 'user_id', 'created_at'];
 
     public $timestamps = false;
 }
